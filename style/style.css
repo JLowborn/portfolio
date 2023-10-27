@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input[type=message], input[type=email], input[type=text], textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+  
+button[type=submit] {
+  background-color: #1C83E1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #176CBA;
+}
+
+/* Streamlit Customization */
+#MainMenu {
+  visibility: hidden;
+}
+
+footer {
+  visibility: hidden;
+}
+
+header {
+  visibility: hidden;
+}
+
+.stProgress {
+  margin-bottom: 10px; /* Change the horizontal spacing between chart bars */
+}
+
+.reportview-container .main .block-container{
+  padding-top: 0rem;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  padding-bottom: 0rem;
+}

@@ -1,0 +1,5 @@
+streamlit==1.27.2
+streamlit-lottie==0.0.5
+streamlit-option-menu==0.3.6
+Pillow==10.1.0
+requests==2.31.0
